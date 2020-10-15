@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-15T20:26:08.827Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="HlyVNSEk9Bs9VxDgaiHG" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-15T20:34:52.666Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="XQzi-Gcpj-D6g6JJFK1E" version="13.8.0" type="github">
   <diagram id="nQyiVnnLF3wUnt_-3fb_" name="Page-1">
-    <mxGraphModel dx="1422" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="JqIv6dvKYfiOk1-WkEOc-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="JqIv6dvKYfiOk1-WkEOc-46" target="JqIv6dvKYfiOk1-WkEOc-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JqIv6dvKYfiOk1-WkEOc-46" value="Possui" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-46" value="Modelo&lt;br&gt;Peça" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JqIv6dvKYfiOk1-WkEOc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="JqIv6dvKYfiOk1-WkEOc-47" target="JqIv6dvKYfiOk1-WkEOc-48">
@@ -43,7 +43,7 @@
         <mxCell id="JqIv6dvKYfiOk1-WkEOc-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="JqIv6dvKYfiOk1-WkEOc-54" target="JqIv6dvKYfiOk1-WkEOc-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JqIv6dvKYfiOk1-WkEOc-54" value="Faz" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-54" value="Pedido&lt;br&gt;Modelo" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="40" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JqIv6dvKYfiOk1-WkEOc-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="JqIv6dvKYfiOk1-WkEOc-56" target="JqIv6dvKYfiOk1-WkEOc-54">
@@ -171,6 +171,42 @@
         </mxCell>
         <mxCell id="JqIv6dvKYfiOk1-WkEOc-103" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-104" value="() cd_Cliente (PK)&lt;br&gt;() nm_Cliente&lt;br&gt;() ds_Endereco&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-105" value="() nm_Dependente&lt;br&gt;() dt_Nascimento&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-315" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-106" value="() cd_Pedido (PK)&lt;br&gt;() dt_Pedido&lt;br&gt;() vl_Pedido" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-107" value="() cd_Matricula&lt;br&gt;() nm_Funcionario&lt;br&gt;() ds_Endereco" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-108" value="() qt_Modelo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-109" value="() cd_Modelo&lt;br&gt;() ds_Modelo&lt;br&gt;() vl_Modelo" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-110" value="() cd_Departamento&lt;br&gt;() nm_Departamento" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-111" value="() qt_Peca" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="300" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-112" value="() cd_Peca&lt;br&gt;() ds_Peca" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="415" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-113" value="() cd_Fornecedor&lt;br&gt;() nm_Fornecedor&lt;br&gt;() ds_Endereco&lt;br&gt;() cd_Telefone" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-114" value="() vl_Peca&lt;br&gt;() qt_Peca" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry y="595" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JqIv6dvKYfiOk1-WkEOc-115" value="() cd_Cotacao&lt;br&gt;() dt_Cotacao&lt;br&gt;() ds_PrazoEntrega&lt;br&gt;() ds_CondPagio" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
